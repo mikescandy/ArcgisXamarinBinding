@@ -9,8 +9,6 @@
     <RootNamespace>ArcgisDemo</RootNamespace>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-   <AndroidUseLatestPlatformSdk>
-    </AndroidUseLatestPlatformSdk>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -29,17 +27,8 @@
     <AndroidLinkMode>None</AndroidLinkMode>
     <ConsolePause>false</ConsolePause>
     <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
-
-    <AndroidLinkSkip>
-    </AndroidLinkSkip>
-    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
-    <AndroidStoreUncompressedFileExtensions>
-    </AndroidStoreUncompressedFileExtensions>
-    <MandroidI18n>
-    </MandroidI18n>
-    <JavaOptions>
-    </JavaOptions>
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <AndroidSupportedAbis>armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
     <MonoDroidExtraArgs>
     </MonoDroidExtraArgs>
   </PropertyGroup>
@@ -73,12 +62,6 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\ArcgisXamarinBinding\ArcgisXamarinBinding.csproj">
-      <Project>{D7FCB9C0-8EBB-49D5-B0A3-FE47A70F4088}</Project>
-      <Name>ArcgisXamarinBinding</Name>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <AndroidNativeLibrary Include="Assets\armeabi-v7a\libruntimecore_java.so" />
@@ -86,5 +69,11 @@
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArcgisXamarinBinding\ArcgisXamarinBinding.csproj">
+      <Project>{D7FCB9C0-8EBB-49D5-B0A3-FE47A70F4088}</Project>
+      <Name>ArcgisXamarinBinding</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

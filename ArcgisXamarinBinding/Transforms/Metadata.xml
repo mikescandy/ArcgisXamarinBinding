@@ -40,11 +40,8 @@
 <attr path="/api/package[@name='com.esri.core.map.ogc.kml']/class[@name='KmlNode.Type']" name="managedName">KmlNodeType</attr>
 <attr path="/api/package[@name='com.esri.core.tasks.query']/class[@name='OutStatistics']/method[@name='getType' and count(parameter)=0]" name="managedName">GetOutStatisticsType</attr>
 <attr path="/api/package[@name='com.esri.core.tasks.query']/class[@name='OutStatistics.Type']" name="managedName">OutStatisticsType</attr>
-<<<<<<< HEAD
 
     <attr path="/api/package[@name='com.esri.core.geometry']/class[@name='VertexDescription']" name="visibility">public</attr>
-=======
->>>>>>> origin/master
 </metadata>
 
 <!--<metadata>
