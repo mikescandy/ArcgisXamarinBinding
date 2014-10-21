@@ -8,10 +8,10 @@ namespace Com.Esri.Android.Map.Popup
     {
         protected internal partial class RangeSpinnerAdapter
         {
-            public override Object GetItem(int position)
-            {
-                return ((IAdapter)this).GetItem(position);
-            }
+            //public override Object GetItem(int position)
+            //{
+            //    return ((IAdapter)this).GetItem(position);
+            //}
         }
     }
 }

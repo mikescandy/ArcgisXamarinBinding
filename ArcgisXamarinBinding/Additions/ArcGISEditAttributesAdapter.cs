@@ -19,10 +19,10 @@ namespace Com.Esri.Android.Map.Popup
 
        protected internal partial class CodedValueSpinnerAdapter
        {
-           Object IAdapter.GetItem(int position)
-        {
-            return ((IAdapter)this).GetItem(position);
-        }
+        //   Object IAdapter.GetItem(int position)
+        //{
+        //    return ((IAdapter)this).GetItem(position);
+        //}
        }
        
     }

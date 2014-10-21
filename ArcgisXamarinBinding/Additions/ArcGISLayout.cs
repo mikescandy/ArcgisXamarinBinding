@@ -14,63 +14,63 @@ namespace Com.Esri.Android.Map.Popup
 {
     public partial class ArcGISLayout
     {
-        View IPopupLayout.TitleView
-        {
-            get
-            {
-                return ((IPopupLayout)this).TitleView;
-            }
-            set
-            {
-                ((IPopupLayout)this).TitleView = value;
-            }
-        }
+        //View IPopupLayout.TitleView
+        //{
+        //    get
+        //    {
+        //        return ((IPopupLayout)this).TitleView;
+        //    }
+        //    set
+        //    {
+        //        ((IPopupLayout)this).TitleView = value;
+        //    }
+        //}
 
-        IPopupStyle IPopupLayout.Style
-        {
-            get
-            {
-                return ((IPopupLayout)this).Style;
-            }
-        }
-
-
-
-        View IPopupLayout.MediaView
-        {
-            get
-            {
-                return ((IPopupLayout)this).MediaView;
-            }
-            set
-            {
-                ((IPopupLayout)this).MediaView = value;
-            }
-        }
-
-        View IPopupLayout.AttributesView
-        {
-            get
-            {
-                return ((IPopupLayout)this).AttributesView;
-            }
-            set
-            {
-                ((IPopupLayout)this).AttributesView = value;
-            }
-        }
+        //IPopupStyle IPopupLayout.Style
+        //{
+        //    get
+        //    {
+        //        return ((IPopupLayout)this).Style;
+        //    }
+        //}
 
 
-        View IPopupLayout.AttachmentsView
-        {
-            get
-            {
-                return ((IPopupLayout)this).AttachmentsView;
-            }
-            set
-            {
-                ((IPopupLayout)this).AttachmentsView = value;
-            }
-        }
+
+        //View IPopupLayout.MediaView
+        //{
+        //    get
+        //    {
+        //        return ((IPopupLayout)this).MediaView;
+        //    }
+        //    set
+        //    {
+        //        ((IPopupLayout)this).MediaView = value;
+        //    }
+        //}
+
+        //View IPopupLayout.AttributesView
+        //{
+        //    get
+        //    {
+        //        return ((IPopupLayout)this).AttributesView;
+        //    }
+        //    set
+        //    {
+        //        ((IPopupLayout)this).AttributesView = value;
+        //    }
+        //}
+
+
+        //View IPopupLayout.AttachmentsView
+        //{
+        //    get
+        //    {
+        //        return ((IPopupLayout)this).AttachmentsView;
+        //    }
+        //    set
+        //    {
+        //        ((IPopupLayout)this).AttachmentsView = value;
+        //    }
+        //}
     }
 }
