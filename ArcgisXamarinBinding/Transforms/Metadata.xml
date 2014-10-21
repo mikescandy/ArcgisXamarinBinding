@@ -4,7 +4,6 @@
 <remove-node path="/api/package[@name='com.esri.core.geometry']/class[@name='MultiPath']/field[@name='m_impl']" />
 <remove-node path="/api/package[@name='com.esri.android.map.popup']" />
 <remove-node path="/api/package[@name='com.esri.core.portal']" />
-
 <attr path="/api/package[@name='com.esri.core.geometry']/class[@name='MultiPath']" name="extends">com.esri.core.geometry.Geometry</attr>
 <attr path="/api/package[@name='com.esri.core.geometry']/class[@name='MultiPath']" name="extends-generic-aware">com.esri.core.geometry.Geometry</attr>
 <attr path="/api/package[@name='com.esri.core.geometry']/class[@name='MultiPoint']" name="extends">com.esri.core.geometry.Geometry</attr>
@@ -41,8 +40,11 @@
 <attr path="/api/package[@name='com.esri.core.map.ogc.kml']/class[@name='KmlNode.Type']" name="managedName">KmlNodeType</attr>
 <attr path="/api/package[@name='com.esri.core.tasks.query']/class[@name='OutStatistics']/method[@name='getType' and count(parameter)=0]" name="managedName">GetOutStatisticsType</attr>
 <attr path="/api/package[@name='com.esri.core.tasks.query']/class[@name='OutStatistics.Type']" name="managedName">OutStatisticsType</attr>
+<<<<<<< HEAD
 
     <attr path="/api/package[@name='com.esri.core.geometry']/class[@name='VertexDescription']" name="visibility">public</attr>
+=======
+>>>>>>> origin/master
 </metadata>
 
 <!--<metadata>
@@ -113,3 +115,4 @@
 </metadata>-->
   <!--<remove-node path="/api/package[@name='com.esri.core.renderer']/class[@name='MultipartColorRamp']" />-->
 <!--<remove-node path="/api/package[@name='com.esri.core.symbol']/class[@name='PictureMarkerSymbol']/constructor/parameter[@type='java.lang.String']/.." />-->
+

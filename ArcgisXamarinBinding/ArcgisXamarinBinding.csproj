@@ -7,6 +7,8 @@
     <ProjectGuid>{D7FCB9C0-8EBB-49D5-B0A3-FE47A70F4088}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>ArcgisXamarinBinding</RootNamespace>
+    <AndroidUseLatestPlatformSdk>
+    </AndroidUseLatestPlatformSdk>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <AssemblyName>ArcgisXamarinBinding</AssemblyName>
