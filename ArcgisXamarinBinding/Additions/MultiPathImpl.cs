@@ -14,9 +14,9 @@ namespace Com.Esri.Core.Geometry
 {
     public partial class MultiPathImpl
     {
-        //public override Type getGeometryType()
-        //{
-        //    return this.Type;
-        //}
+//        public override Type getGeometryType()
+//        {
+//            return this.Type;
+//        }
     }
 }
